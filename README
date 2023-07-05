@@ -1,0 +1,15 @@
+To run the code run.sh, you need to modify the "root" variable in "directory.txt" to the local directory that contains this file
+Also you need to download the following files from the UKB return (information will be provided upon UKB's approval)
+ - ids_geno.txt
+ - ids_geno_vaf.txt
+ - ids_pheno.txt
+ - ids_pileup.txt
+ - ids_dd.txt
+These file must be put in the root directory
+
+R and packages are also required
+ - survival
+ - survminer
+ - pROC
+
+Code for reproducing figures are in the "figures" folder. More R packages are required (see individual files for details).
